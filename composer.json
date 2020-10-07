@@ -1,0 +1,28 @@
+{
+    "name": "faks/codeline-trial-1.solum-designum.eu",
+    "require": {
+        "php": "^7.4",
+        "phpunit/phpunit": "^9.2",
+        "ext-bcmath": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oskars Germovs",
+            "email": "oskars_germovs@inbox.lv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    }
+}
